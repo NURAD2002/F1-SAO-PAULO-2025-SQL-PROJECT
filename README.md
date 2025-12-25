@@ -1,4 +1,4 @@
-# 🏎️ São Paulo Grand Prix — SQL Data Analysis
+# 🏎️ F1 2025 Season — SQL Data Analysis
 
 This project presents a SQL-based analysis of the **Formula 1 São Paulo Grand Prix**, designed to showcase practical data analytics and SQL skills using a realistic sports dataset.
 
