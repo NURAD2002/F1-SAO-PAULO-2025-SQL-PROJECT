@@ -1,6 +1,6 @@
 # 🏎️ F1 2025 Season — SQL Data Analysis
 
-This project presents a SQL-based analysis of the **Formula 1 São Paulo Grand Prix**, designed to showcase practical data analytics and SQL skills using a realistic sports dataset.
+This project presents a SQL-based analysis of the **Formula 1**, designed to showcase practical data analytics and SQL skills using a realistic sports dataset.
 
 The goal of the project is to simulate how SQL can be used to analyze race performance, compare teams, evaluate pit stop strategy, and extract meaningful insights from structured data.
 
@@ -21,17 +21,54 @@ All data was manually created to mirror a real-world motorsport scenario and to 
 
 ## 🗂️ Project Structure
 
-f1-sao-paulo-sql-analysis/
+f1-season-sql/
+│
+├── README.md
+│
+├── schema/
+│   ├── drivers.sql
+│   ├── teams.sql
+│   ├── races.sql
+│   ├── circuits.sql
+│   ├── results.sql
+│   ├── lap_times.sql
+│   ├── pit_stops.sql
+│   └── standings.sql
 │
 ├── data/
-│ └── f1_results.sql -- Table creation and data insertion
+│   ├── drivers.csv
+│   ├── teams.csv
+│   ├── races.csv
+│   ├── results.csv
+│   ├── lap_times.csv
+│   └── pit_stops.csv
 │
-└── queries/
-├── team_summary.sql -- Team-level performance analysis
-├── time_gap_analysis.sql -- Time gap calculation using window functions
-├── pit_stop_efficiency.sql -- Pit stop impact analysis
-├── dnf_list.sql -- Identification of non-finishers
-└── extra_queries.sql -- Additional analytical queries
+├── inserts/
+│   ├── insert_drivers.sql
+│   ├── insert_teams.sql
+│   ├── insert_races.sql
+│   ├── insert_results.sql
+│   ├── insert_lap_times.sql
+│   └── insert_pit_stops.sql
+│
+├── queries/
+│   ├── race_results.sql
+│   ├── driver_standings.sql
+│   ├── team_standings.sql
+│   ├── fastest_laps.sql
+│   ├── pit_stop_counts.sql
+│   ├── average_lap_times.sql
+│   └── consistency_analysis.sql
+│
+├── views/
+│   ├── v_race_results.sql
+│   ├── v_driver_standings.sql
+│   └── v_team_standings.sql
+│
+└── docs/
+    ├── data_dictionary.md
+    ├── assumptions.md
+    └── known_issues.md
 
 
 ---
